@@ -22,8 +22,12 @@ git branch -M main
 git push -u origin main
 ```
 
+## Cloing the Sample file from the GIT Repository ##
+```
+git clone https://github.com/YIRJohnGit/hadoop_pig.git
+cd hadoop_pig
+```
 ## PIG Sample Execution from File ##
-
 ```
 pig -x local LS_06_01_students_r01.pig
 ```
