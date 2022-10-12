@@ -29,5 +29,5 @@ cd hadoop_pig
 ```
 ## PIG Sample Execution from File ##
 ```
-pig -x local LS_06_01_students_r01.pig
+pig -x local LS06_01_student_details_r01.pig
 ```
