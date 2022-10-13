@@ -3,10 +3,11 @@
 ## …or create a new repository on the command line ##
 ```
 mkdir test_pig_v01
-git init
+cd test_pig_v01
+git init # Initialiating the Git Repository
 
-git config --global user.email "yirjohn@gmail.com"
-git config --global user.name "YIRJohnGit"
+git config --global user.name "YIRJohnGit" # Specify the Author Name
+git config --global user.email yirjohn@gmail.com # Specify the Git Registered Email
 
 git add .
 git commit -m "First commit"
