@@ -1,4 +1,4 @@
-# Apache's PIG
+# Run Apache's PIG Sample File
 
 ## …or create a new repository on the command line ##
 ```
