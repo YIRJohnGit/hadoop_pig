@@ -51,6 +51,8 @@ git status
 git remote add "master" git@github.com:YIRJohnGit/hadoop_pig.git
 git push --set-upstream https://github.com/YIRJohnGit/hadoop_pig.git master
 ```
+_Result_ 
+![image](https://user-images.githubusercontent.com/111234771/195471429-9e85f615-d1e6-419a-a0cf-19265c23f631.png)
 
 ## ...PIG Sample Execution from File ##
 ```
