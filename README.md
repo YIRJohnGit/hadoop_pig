@@ -29,7 +29,7 @@ git clone https://github.com/YIRJohnGit/hadoop_pig.git
 cd hadoop_pig
 ```
 
-## Pulling from Repo make change or add then pushit to Githuub Repository##
+## ...Pulling from Repo make change or add then pushit to Githuub Repository##
 ```
 mkdir test_pig
 cd test_pig/
@@ -52,7 +52,7 @@ git remote add "master" git@github.com:YIRJohnGit/hadoop_pig.git
 git push --set-upstream https://github.com/YIRJohnGit/hadoop_pig.git master
 ```
 
-## PIG Sample Execution from File ##
+## ...PIG Sample Execution from File ##
 ```
 pig -x local LS06_01_student_details_r01.pig
 ```
