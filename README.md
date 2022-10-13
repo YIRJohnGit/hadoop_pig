@@ -23,11 +23,35 @@ git branch -M main
 git push -u origin main
 ```
 
-## Cloing the Sample file from the GIT Repository ##
+## ...cloing the Sample file from the GIT Repository ##
 ```
 git clone https://github.com/YIRJohnGit/hadoop_pig.git
 cd hadoop_pig
 ```
+
+## Pulling from Repo make change or add then pushit to Githuub Repository##
+```
+mkdir test_pig
+cd test_pig/
+
+git init # Initialiating the Git Repository
+git config --global user.name "YIRJohnGit" # Specify the Author Name
+git config --global user.email yirjohn@gmail.com # Specify the Git Registered Email
+# git commit --amend --reset-author #Reset the Author Name
+
+# git checkout main
+git pull https://github.com/YIRJohnGit/hadoop_pig.git
+ls -lshrt
+pig -x local LS06_01_student_details_r01.pig 
+
+git add . # Adding the Git in Local Repo
+git commit -am "first update..." # Committing the File
+git status
+
+git remote add "master" git@github.com:YIRJohnGit/hadoop_pig.git
+git push --set-upstream https://github.com/YIRJohnGit/hadoop_pig.git master
+```
+
 ## PIG Sample Execution from File ##
 ```
 pig -x local LS06_01_student_details_r01.pig
