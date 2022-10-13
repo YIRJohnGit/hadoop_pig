@@ -29,7 +29,7 @@ git clone https://github.com/YIRJohnGit/hadoop_pig.git
 cd hadoop_pig
 ```
 
-## ...pulling from repo make change or add then pushit to Githuub Repository##
+## ...pulling from remote github repository, make change or add more files of contents,  and then pushit to Githuub Repository##
 ```
 mkdir test_pig
 cd test_pig/
